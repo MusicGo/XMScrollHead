@@ -16,6 +16,17 @@
 		62563D001E97804200A44D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62563CFE1E97804200A44D21 /* LaunchScreen.storyboard */; };
 		62563D0B1E97804200A44D21 /* XMScrollHeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D0A1E97804200A44D21 /* XMScrollHeadTests.m */; };
 		62563D161E97804200A44D21 /* XMScrollHeadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D151E97804200A44D21 /* XMScrollHeadUITests.m */; };
+		62563D371E97805900A44D21 /* AddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D251E97805900A44D21 /* AddView.m */; };
+		62563D381E97805900A44D21 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D271E97805900A44D21 /* CommentView.m */; };
+		62563D391E97805900A44D21 /* ItemDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D291E97805900A44D21 /* ItemDetailView.m */; };
+		62563D3A1E97805900A44D21 /* PicAndTextIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D2B1E97805900A44D21 /* PicAndTextIntroduceView.m */; };
+		62563D3B1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D2E1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m */; };
+		62563D3C1E97805900A44D21 /* YXIgnoreHeaderTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D301E97805900A44D21 /* YXIgnoreHeaderTouchTableView.m */; };
+		62563D3D1E97805900A44D21 /* YXTabItemBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D321E97805900A44D21 /* YXTabItemBaseView.m */; };
+		62563D3E1E97805900A44D21 /* YXTabTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D341E97805900A44D21 /* YXTabTitleView.m */; };
+		62563D3F1E97805900A44D21 /* YXTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D361E97805900A44D21 /* YXTabView.m */; };
+		62563D431E97807A00A44D21 /* ZhuanQuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62563D411E97807A00A44D21 /* ZhuanQuCollectionViewCell.m */; };
+		62563D441E97807A00A44D21 /* ZhuanQuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62563D421E97807A00A44D21 /* ZhuanQuCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,28 @@
 		62563D111E97804200A44D21 /* XMScrollHeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMScrollHeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62563D151E97804200A44D21 /* XMScrollHeadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMScrollHeadUITests.m; sourceTree = "<group>"; };
 		62563D171E97804200A44D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62563D241E97805900A44D21 /* AddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddView.h; sourceTree = "<group>"; };
+		62563D251E97805900A44D21 /* AddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddView.m; sourceTree = "<group>"; };
+		62563D261E97805900A44D21 /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		62563D271E97805900A44D21 /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		62563D281E97805900A44D21 /* ItemDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailView.h; sourceTree = "<group>"; };
+		62563D291E97805900A44D21 /* ItemDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailView.m; sourceTree = "<group>"; };
+		62563D2A1E97805900A44D21 /* PicAndTextIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicAndTextIntroduceView.h; sourceTree = "<group>"; };
+		62563D2B1E97805900A44D21 /* PicAndTextIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicAndTextIntroduceView.m; sourceTree = "<group>"; };
+		62563D2C1E97805900A44D21 /* YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YX.h; sourceTree = "<group>"; };
+		62563D2D1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.h; sourceTree = "<group>"; };
+		62563D2E1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m; sourceTree = "<group>"; };
+		62563D2F1E97805900A44D21 /* YXIgnoreHeaderTouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXIgnoreHeaderTouchTableView.h; sourceTree = "<group>"; };
+		62563D301E97805900A44D21 /* YXIgnoreHeaderTouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXIgnoreHeaderTouchTableView.m; sourceTree = "<group>"; };
+		62563D311E97805900A44D21 /* YXTabItemBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTabItemBaseView.h; sourceTree = "<group>"; };
+		62563D321E97805900A44D21 /* YXTabItemBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTabItemBaseView.m; sourceTree = "<group>"; };
+		62563D331E97805900A44D21 /* YXTabTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTabTitleView.h; sourceTree = "<group>"; };
+		62563D341E97805900A44D21 /* YXTabTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTabTitleView.m; sourceTree = "<group>"; };
+		62563D351E97805900A44D21 /* YXTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTabView.h; sourceTree = "<group>"; };
+		62563D361E97805900A44D21 /* YXTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTabView.m; sourceTree = "<group>"; };
+		62563D401E97807A00A44D21 /* ZhuanQuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuanQuCollectionViewCell.h; sourceTree = "<group>"; };
+		62563D411E97807A00A44D21 /* ZhuanQuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuanQuCollectionViewCell.m; sourceTree = "<group>"; };
+		62563D421E97807A00A44D21 /* ZhuanQuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuanQuCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +136,7 @@
 		62563CEC1E97804200A44D21 /* XMScrollHead */ = {
 			isa = PBXGroup;
 			children = (
+				62563D231E97805900A44D21 /* View */,
 				62563CF01E97804200A44D21 /* AppDelegate.h */,
 				62563CF11E97804200A44D21 /* AppDelegate.m */,
 				62563CF31E97804200A44D21 /* ViewController.h */,
@@ -141,6 +175,35 @@
 				62563D171E97804200A44D21 /* Info.plist */,
 			);
 			path = XMScrollHeadUITests;
+			sourceTree = "<group>";
+		};
+		62563D231E97805900A44D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62563D401E97807A00A44D21 /* ZhuanQuCollectionViewCell.h */,
+				62563D411E97807A00A44D21 /* ZhuanQuCollectionViewCell.m */,
+				62563D421E97807A00A44D21 /* ZhuanQuCollectionViewCell.xib */,
+				62563D241E97805900A44D21 /* AddView.h */,
+				62563D251E97805900A44D21 /* AddView.m */,
+				62563D261E97805900A44D21 /* CommentView.h */,
+				62563D271E97805900A44D21 /* CommentView.m */,
+				62563D281E97805900A44D21 /* ItemDetailView.h */,
+				62563D291E97805900A44D21 /* ItemDetailView.m */,
+				62563D2A1E97805900A44D21 /* PicAndTextIntroduceView.h */,
+				62563D2B1E97805900A44D21 /* PicAndTextIntroduceView.m */,
+				62563D2C1E97805900A44D21 /* YX.h */,
+				62563D2D1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.h */,
+				62563D2E1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m */,
+				62563D2F1E97805900A44D21 /* YXIgnoreHeaderTouchTableView.h */,
+				62563D301E97805900A44D21 /* YXIgnoreHeaderTouchTableView.m */,
+				62563D311E97805900A44D21 /* YXTabItemBaseView.h */,
+				62563D321E97805900A44D21 /* YXTabItemBaseView.m */,
+				62563D331E97805900A44D21 /* YXTabTitleView.h */,
+				62563D341E97805900A44D21 /* YXTabTitleView.m */,
+				62563D351E97805900A44D21 /* YXTabView.h */,
+				62563D361E97805900A44D21 /* YXTabView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62563D001E97804200A44D21 /* LaunchScreen.storyboard in Resources */,
+				62563D441E97807A00A44D21 /* ZhuanQuCollectionViewCell.xib in Resources */,
 				62563CFD1E97804200A44D21 /* Assets.xcassets in Resources */,
 				62563CF81E97804200A44D21 /* Main.storyboard in Resources */,
 			);
@@ -276,10 +340,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62563D3F1E97805900A44D21 /* YXTabView.m in Sources */,
+				62563D3B1E97805900A44D21 /* YXIgnoreHeaderTouchAndRecognizeSimultaneousTableView.m in Sources */,
+				62563D3A1E97805900A44D21 /* PicAndTextIntroduceView.m in Sources */,
 				62563CF51E97804200A44D21 /* ViewController.m in Sources */,
+				62563D3C1E97805900A44D21 /* YXIgnoreHeaderTouchTableView.m in Sources */,
+				62563D3E1E97805900A44D21 /* YXTabTitleView.m in Sources */,
 				62563CF21E97804200A44D21 /* AppDelegate.m in Sources */,
+				62563D371E97805900A44D21 /* AddView.m in Sources */,
 				62563CEF1E97804200A44D21 /* main.m in Sources */,
+				62563D381E97805900A44D21 /* CommentView.m in Sources */,
+				62563D3D1E97805900A44D21 /* YXTabItemBaseView.m in Sources */,
 				62563CFB1E97804200A44D21 /* XMScrollHead.xcdatamodeld in Sources */,
+				62563D391E97805900A44D21 /* ItemDetailView.m in Sources */,
+				62563D431E97807A00A44D21 /* ZhuanQuCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
